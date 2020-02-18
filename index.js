@@ -9,8 +9,10 @@ const {
 
 // set global variables
 global.bcrypt = require('bcrypt')
+global.jwt = require('jsonwebtoken')
 global.mongoose = require('mongoose')
 global.environment = NODE_ENV
+global.jwt_secret = JWT_SECRET
 global.connUri = MONGO_LOCAL_CONN_URL
 global.stage = require('./config')[environment]
 
