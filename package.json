@@ -1,0 +1,34 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfarodarwaynejay/jwt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfarodarwaynejay/jwt/issues"
+  },
+  "homepage": "https://github.com/alfarodarwaynejay/jwt#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  }
+}
